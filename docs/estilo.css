@@ -1,0 +1,104 @@
+/*Fuentes*/
+
+@import url("https://fonts.googleapis.com/css2?family=Finlandica:ital@0;1&family=Montserrat:ital,wght@0,100;0,200;1,100;1,200;1,300&family=Splash&family=The+Nautigal:wght@700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+::-webkit-scrollbar {
+  background-color: blue;
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(220, 230, 230);
+  border-radius: 10px;
+}
+
+/*VARIABLES*/
+:root {
+  --color: darkblue;
+  --fuente: Gill Sans ", " Gill Sans MT ", Calibri, " Trebuchet MS;
+}
+html {
+  background-image: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 1)
+    ),
+    url("esa.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+body {
+  background-color: aliceblue;
+  margin: 0 auto;
+  width: 60%;
+  background-position: center;
+  box-shadow: 52px 10px 115px 0px rgba(54, 35, 35, 0.75);
+  -webkit-box-shadow: 52px 10px 115px 0px rgba(54, 35, 35, 0.75);
+  -moz-box-shadow: 52px 10px 115px 0px rgba(54, 35, 35, 0.75);
+}
+.img {
+  opacity: 10px;
+}
+.encabezado {
+  background-color: var(--color);
+  border-radius: 10px;
+}
+h1 {
+  color: white;
+}
+
+article h3 {
+  background-color: var(--color);
+  color: white;
+}
+
+/*menu de navegacion*/
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: #111;
+  color: yellow;
+}
+.encabezado div {
+  margin: 10%;
+  margin: 0 auto;
+}
+
+article {
+  width: 1000px;
+  border: 5px dotted green;
+  padding: 20px;
+  margin: 75px;
+  text-align: justify;
+}
+@media screen and (max-width: 500px) {div img{width: 300px;border: 5px solid #000;}
+.caja{border: 7px solid red;display: flex;gap: 30px;}
+.flexbox{ display: flex; width: 100%;flex-wrap: wrap;margin: 0 auto;gap:12px;}
+}
